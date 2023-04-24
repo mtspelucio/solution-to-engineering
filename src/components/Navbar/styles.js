@@ -14,11 +14,11 @@ export const Container = styled.nav`
         align-items: center;
         gap: 1rem;
         font-weight: 700;
-        font-size: 2rem;
+        font-size: 1.8rem;
         cursor: pointer;
 
         img{
-            width: 5rem;
+            width: 3.5rem;
         }
     }
     .menu{
@@ -27,11 +27,15 @@ export const Container = styled.nav`
             gap: 6rem;
 
             li{
+                font-size: 1.5rem;
                 font-weight: 500;
+                opacity: .5;
+                transition: .5s;
                 cursor: pointer;
                 
                 :hover{
-                    font-weight: 700;
+                    /* scale: 1.1; */
+                    opacity: 1;
 
                     ::after{
                         content: '';
@@ -39,7 +43,7 @@ export const Container = styled.nav`
                         outline: .2rem solid #fff;
                         background: var(--white);
                         position: relative;
-                        top: 2.5rem;
+                        top: 2rem;
                     }
                 }
             }

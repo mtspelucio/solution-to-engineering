@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from './styles';
-import Logo from '../../images/logo.png'
+
+import Object3D from '../Object3D';
 
 export default function Initial() {
   return (
@@ -14,7 +15,7 @@ export default function Initial() {
             <button>ENTRAR EM CONTATO</button>
         </div>
 
-        <img src={Logo} alt='Logo Clio' />
+        <Object3D />
     </Container>
   );
 }
