@@ -1,18 +1,17 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    padding: 10rem 0;
+    /* padding: 5rem 0;*/
+    margin: 10rem 0; 
     width: 90%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5rem;
+    grid-template-columns: 55rem 1fr;
     justify-items: center;
     
     .text{
         flex-direction: column;
         justify-content: center;
-        /* align-items: center; */
-        width: 100%;
+
         h2, h1{
             font-size: 4.4rem;
             font-weight: 500;
@@ -37,8 +36,9 @@ export const Container = styled.div`
             font-weight: 500;
         }
     }
-    img{
-        width: 50rem;
-        opacity: .5;
+    .model{
+        flex: 1;
+        width: 100%;
+        height: calc(100vh - 15rem);
     }
 `;

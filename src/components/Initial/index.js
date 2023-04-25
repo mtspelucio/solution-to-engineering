@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from './styles';
 
-import Object3D from '../Object3D';
+import Model3D from '../Model3D';
 
 export default function Initial() {
   return (
@@ -15,7 +15,9 @@ export default function Initial() {
             <button>ENTRAR EM CONTATO</button>
         </div>
 
-        <Object3D />
+        <div className='model flex'>
+          <Model3D modelPath='room.glb' />
+        </div>
     </Container>
   );
 }

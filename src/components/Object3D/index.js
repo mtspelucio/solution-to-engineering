@@ -3,8 +3,8 @@ import * as THREE from 'three';
 
 import { Container } from './styles';
 
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import Stats from 'three/examples/jsm/libs/stats.module';
+// import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+// import Stats from 'three/examples/jsm/libs/stats.module';
 
 export default function Object3D() {
 
@@ -31,15 +31,15 @@ export default function Object3D() {
         const mesh = new THREE.Mesh( geometry, material );
         scene.add( mesh );
 
-        const controls = new OrbitControls(camera, renderer.domElement)
+        // const controls = new OrbitControls(camera, renderer.domElement)
 
-        const stats = Stats();
+        // const stats = Stats();
 
         const animate = () => {   
             // mesh.rotation.x += 0.01;
             mesh.rotation.y += 0.01;  
-            stats.update();
-            controls.update();   
+            // stats.update();
+            // controls.update();   
             renderer.render( scene, camera );
             window.requestAnimationFrame(animate)
         };

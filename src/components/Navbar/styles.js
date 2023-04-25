@@ -43,7 +43,7 @@ export const Container = styled.nav`
                         outline: .2rem solid #fff;
                         background: var(--white);
                         position: relative;
-                        top: 2rem;
+                        top: 1.6rem;
                     }
                 }
             }
