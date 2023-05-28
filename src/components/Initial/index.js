@@ -1,22 +1,25 @@
 import React from 'react';
 import { Container } from './styles';
 
+
 import Model3D from '../Model3D';
 
 export default function Initial() {
+  
+
   return (
     <Container >
         <div className='text flex'>
-            <h2>Nosso objetivo é</h2>
-            <h1>Solucionar Problemas</h1>
+            <h2 data-aos="fade-right">Nosso objetivo é</h2>
+            <h1 data-aos="fade-right">Solucionar Problemas</h1>
 
-            <p>Buscamos oferecer soluções inovadoras e eficazes para desafios complexos em diferentes setores. Combinando conhecimentos a empresa pode desenvolver projetos desde  desenvolvimento de máquinas e equipamentos até a criação de softwares para otimizar processos industriais.</p>
+            <p data-aos="fade-right" data-aos-delay="500">Buscamos oferecer soluções inovadoras e eficazes para desafios complexos em diferentes setores. Combinando conhecimentos a empresa pode desenvolver projetos desde  desenvolvimento de máquinas e equipamentos até a criação de softwares para otimizar processos industriais.</p>
 
-            <button>ENTRAR EM CONTATO</button>
+            <button data-aos="fade-right" data-aos-delay="500" >ENTRAR EM CONTATO</button>
         </div>
 
-        <div className='model flex'>
-          <Model3D modelPath='room.glb' />
+        <div data-aos="fade-up" data-aos-delay="1000" className='model flex'>
+          <Model3D modelPath='eng.glb' scale={2.5} />
         </div>
     </Container>
   );

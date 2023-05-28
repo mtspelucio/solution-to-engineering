@@ -7,8 +7,7 @@ export default function GltfModel({ modelPath, scale, position }) {
     const gltf = useLoader(GLTFLoader, modelPath);
 
     useFrame((state, delta) => {
-
-        ref.current.rotation.y += 0.005 
+        ref.current.rotation.y += 0.01
     });
 
     return(

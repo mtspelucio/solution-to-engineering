@@ -4,6 +4,7 @@ export const Container = styled.div`
     position: relative;
     flex-direction: column;
     align-items: center;
+    height: 80vh;
     
     img{
         width: 100%;

@@ -4,7 +4,7 @@ import Logo from '../../images/logo.png'
 
 export default function Navbar() {
   return (
-    <Container className='flex'>
+    <Container data-aos="fade-down" className='flex'>
         <div className="logo flex">
             <img src={Logo} alt='Logo Clio' />
             CLIO

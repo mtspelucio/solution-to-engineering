@@ -4,7 +4,7 @@ export const Container = styled.footer`
     gap: 2rem;
     align-items: center;
     justify-content: center;
-    padding-bottom: 3rem;
+    padding: 5rem 0;
 
     .logo{
         img{

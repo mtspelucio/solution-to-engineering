@@ -1,14 +1,16 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    /* padding: 5rem 0;*/
     margin: 10rem 0; 
     width: 90%;
+    height: 80vh;
     display: grid;
     grid-template-columns: 55rem 1fr;
     justify-items: center;
+    position: relative;
     
     .text{
+        padding: 15rem 0;
         flex-direction: column;
         justify-content: center;
 
@@ -37,8 +39,11 @@ export const Container = styled.div`
         }
     }
     .model{
-        flex: 1;
-        width: 100%;
-        height: calc(100vh - 15rem);
+        /* flex: 1; */
+        position: absolute;
+        top: 15rem;
+        right: 0;
+        width: 60%;
+        height: 50vh;
     }
 `;
