@@ -7,7 +7,15 @@ export const Container = styled.div`
     display: grid;
     grid-template-columns: 55rem 1fr;
     justify-content: center;
-    position: relative;
+    /* position: relative; */
+
+    video{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+        opacity: .4;
+    }
     
     .text{
         padding: 15rem 0;

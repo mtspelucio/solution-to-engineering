@@ -40,7 +40,7 @@ export default createGlobalStyle`
         font-size: 1.6rem;
         font-family: 'Montserrat', sans-serif;
         color: var(--white);
-
+        overflow-x: hidden;
     }
     .flex{
         display: flex;
