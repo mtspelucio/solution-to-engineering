@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from './styles';
 
-import Video from '../../images/video.mp4'
+import Video from '../../images/video.gif'
 
 // import Model3D from '../Model3D';
 
@@ -17,7 +17,7 @@ export default function Initial() {
         playsInline
         data-aos="fade-up"
       >
-        <source src={Video} type='video/mp4' />
+        <source src={Video} type='video/gif' />
       </video>
       <div className='text flex'>
           <h2 data-aos="fade-right">Nosso objetivo é</h2>
