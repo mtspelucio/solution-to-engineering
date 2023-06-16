@@ -49,4 +49,15 @@ export const Container = styled.nav`
             }
         }
     }
+
+    @media (max-width: 425px){
+        padding: 1rem 2rem;
+
+
+        .menu{
+            ul{
+                gap: 2rem;
+            }
+        }
+    }
 `;

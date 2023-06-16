@@ -29,4 +29,35 @@ export const Container = styled.div`
             }
         }
     }
+
+    @media (max-width: 425px){
+        position: relative;
+
+        h2{
+            font-size: 3rem;
+            z-index: 998;
+        }
+
+        .content{
+            img{
+                position: absolute;
+                width: 100%;
+            }
+            .text{
+                p{
+                    font-size: 1.5rem;
+                    z-index: 998;
+                }
+            }
+            .text::before{
+                content: "";
+                width: 100%;
+                height: 60vh;
+                background: var(--black);
+                opacity: .8;
+                z-index: 1;
+                position: absolute;
+            }
+        }
+    }
 `;

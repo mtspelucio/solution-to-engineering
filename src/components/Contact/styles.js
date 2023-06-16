@@ -50,4 +50,22 @@ export const Container = styled.div`
             }
         }
     }
+
+    @media (max-width: 425px){
+        .content{
+            width: 90%;
+
+            h2{
+                font-size: 2.5rem;
+            }
+            p{
+                font-size: 1.5rem;
+            }
+
+            .info{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
 `;

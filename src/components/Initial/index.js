@@ -19,7 +19,7 @@ export default function Initial() {
         </div>
 
         <div data-aos="fade-up" data-aos-delay="1000" className='model flex'>
-          <Model3D modelPath='eng.glb' scale={2.5} />
+          <Model3D modelPath='robo.glb' scale={4} />
         </div>
     </Container>
   );

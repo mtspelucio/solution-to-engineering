@@ -6,7 +6,7 @@ export const Container = styled.div`
     height: 80vh;
     display: grid;
     grid-template-columns: 55rem 1fr;
-    justify-items: center;
+    justify-content: center;
     position: relative;
     
     .text{
@@ -45,5 +45,31 @@ export const Container = styled.div`
         right: 0;
         width: 60%;
         height: 50vh;
+    }
+
+    @media (max-width: 425px){
+        display: flex;
+        flex-direction: column;
+        margin: 3rem 0 20rem 0; 
+
+
+        .text{
+            margin-top: 40rem;
+            padding: 0;
+
+            h2, h1{
+                font-size: 2.4rem;
+            }
+            P{
+                font-size: 1.5rem;
+                margin-top: 2rem;
+
+            }
+        }
+
+        .model{
+            top: 0;
+            width: 100%;
+        }
     }
 `;
