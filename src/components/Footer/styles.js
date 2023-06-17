@@ -18,8 +18,9 @@ export const Container = styled.footer`
     }
     .description{
         p{
-            color: var(--background);
+            color: var(--white);
             font-weight: 500;
+            opacity: .7;
         }
     }
 `;

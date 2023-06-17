@@ -60,11 +60,14 @@ export const Container = styled.div`
     @media (max-width: 425px){
         display: flex;
         flex-direction: column;
-        margin: 3rem 0 20rem 0; 
+        margin: 3rem 0 15rem 0; 
 
+        img{
+            top: 8rem;
+        }
 
         .text{
-            margin-top: 40rem;
+            margin-top: 25rem;
             padding: 0;
 
             h2, h1{

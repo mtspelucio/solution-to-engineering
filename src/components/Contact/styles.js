@@ -53,6 +53,7 @@ export const Container = styled.div`
 
     @media (max-width: 425px){
         .content{
+            bottom: 0;
             width: 90%;
 
             h2{
