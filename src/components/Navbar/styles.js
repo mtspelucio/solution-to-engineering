@@ -22,7 +22,18 @@ export const Container = styled.nav`
         }
     }
     .menu{
-        ul{
+        button{
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            padding: .8rem;
+            background: var(--primary);
+            border: none;
+            border-radius: 1rem;
+            display: none;
+        }
+
+        .desktop{
             list-style: none;
             gap: 6rem;
 
@@ -34,7 +45,7 @@ export const Container = styled.nav`
                 cursor: pointer;
                 
                 :hover{
-                    /* scale: 1.1; */
+                    scale: 1.1;
                     opacity: 1;
 
                     ::after{
@@ -48,15 +59,33 @@ export const Container = styled.nav`
                 }
             }
         }
+        .mobile{
+            list-style: none;
+            gap: 6rem;
+            position: absolute;
+            width: 100%;
+            padding: 2rem 0;
+            justify-content: center;
+            left: 0;
+            top: 6rem;
+            background: #0f0f0faa;
+                
+            li{
+                font-size: 1.5rem;
+                font-weight: 500;
+            }
+        }
     }
 
     @media (max-width: 425px){
         padding: 1rem 2rem;
 
-
         .menu{
-            ul{
-                gap: 2rem;
+            button{
+                display: inline-flex;
+            }
+            .desktop{
+                display: none;
             }
         }
     }

@@ -10,15 +10,7 @@ export default function Initial() {
 
   return (
     <Container >
-      <video 
-        autoPlay 
-        loop 
-        muted 
-        playsInline
-        data-aos="fade-up"
-      >
-        <source src={Video} type='video/gif' />
-      </video>
+      <img src={Video} alt='model' />
       <div className='text flex'>
           <h2 data-aos="fade-right">Nosso objetivo é</h2>
           <h1 data-aos="fade-right">Solucionar Problemas</h1>

@@ -9,9 +9,11 @@ export const Container = styled.div`
     justify-content: center;
     /* position: relative; */
 
-    video{
+    img{
         position: absolute;
         width: 100%;
+        /* height: 100vh; */
+        object-fit: cover;
         left: 0;
         top: 0;
         opacity: .4;

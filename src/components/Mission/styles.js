@@ -54,7 +54,7 @@ export const Container = styled.div`
                 width: 100%;
                 height: 60vh;
                 background: var(--black);
-                opacity: .8;
+                opacity: .5;
                 z-index: 1;
                 position: absolute;
             }
