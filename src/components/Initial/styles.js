@@ -46,6 +46,8 @@ export const Container = styled.div`
             color: var(--white);
             font-size: 1.5rem;
             font-weight: 500;
+
+            cursor: pointer;
         }
     }
     .model{

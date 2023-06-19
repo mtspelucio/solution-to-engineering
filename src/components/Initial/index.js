@@ -7,6 +7,12 @@ import Video from '../../images/video.gif'
 
 export default function Initial() {
   
+  const goTo = () => {
+    window.scrollTo({ 
+      top: 1650, 
+      behavior: "smooth" 
+    })
+  }
 
   return (
     <Container >
@@ -17,7 +23,10 @@ export default function Initial() {
 
           <p data-aos="fade-right" data-aos-delay="500">Buscamos oferecer soluções inovadoras e eficazes para desafios complexos em diferentes setores. Combinando conhecimentos a empresa pode desenvolver projetos desde  desenvolvimento de máquinas e equipamentos até a criação de softwares para otimizar processos industriais.</p>
 
-          <button data-aos="fade-right" data-aos-delay="500" >ENTRAR EM CONTATO</button>
+          <button 
+            onClick={goTo}
+            data-aos="fade-right" data-aos-delay="500" 
+          >ENTRAR EM CONTATO</button>
       </div>
 
       {/* <div data-aos="fade-up" data-aos-delay="1000" className='model flex'>
