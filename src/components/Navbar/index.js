@@ -62,7 +62,7 @@ export default function Navbar() {
             className='flex'
             onClick={() => setHandleMenu(!handleMenu)}
           >
-            <List size={25} weight="fill" />
+            <List size={32} weight="fill" />
           </button>
           {
             handleMenu === true && <Menu type={handleMenu} />

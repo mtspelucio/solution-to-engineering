@@ -26,10 +26,8 @@ export const Container = styled.nav`
             align-items: center;
             justify-content: center;
             color: var(--white);
-            padding: .8rem;
-            background: var(--primary);
+            background: transparent;
             border: none;
-            border-radius: 1rem;
             display: none;
         }
 
@@ -67,7 +65,7 @@ export const Container = styled.nav`
             padding: 2rem 0;
             justify-content: center;
             left: 0;
-            top: 6rem;
+            top: 5.5rem;
             background: #0f0f0faa;
                 
             li{
@@ -77,7 +75,7 @@ export const Container = styled.nav`
         }
     }
 
-    @media (max-width: 425px){
+    @media (max-width: 500px){
         padding: 1rem 2rem;
 
         .menu{

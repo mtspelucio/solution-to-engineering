@@ -30,7 +30,7 @@ export const Container = styled.div`
         }
     }
 
-    @media (max-width: 425px){
+    @media (max-width: 500px){
         position: relative;
 
         h2{

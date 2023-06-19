@@ -51,7 +51,7 @@ export const Container = styled.div`
         }
     }
 
-    @media (max-width: 425px){
+    @media (max-width: 500px){
         .content{
             bottom: 0;
             width: 90%;

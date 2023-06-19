@@ -59,7 +59,7 @@ export const Container = styled.div`
         height: 50vh;
     }
 
-    @media (max-width: 425px){
+    @media (max-width: 500px){
         display: flex;
         flex-direction: column;
         margin: 3rem 0 15rem 0; 
